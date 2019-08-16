@@ -1,0 +1,150 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  height: 100%
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  height: 100%;
+}
+
+
+
+#left{
+  width: 35%;
+  height: 100%;
+  background-color: orange;
+  float: left;
+}
+
+#layer11{
+  height: 85%;
+  margin: 10%;
+}
+
+#right{
+  
+  width: 65%;
+  height: 100%;
+  background-color: lightgray;
+  float: left;
+}
+#a{
+  height: 100%;
+  width: 100%;
+    
+    
+
+}
+
+
+.a table {
+ text-align: left;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px; 
+  border-collapse: collapse;
+  cursor: pointer;
+  border: 0;
+  border: none;
+  background:rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.a table tr {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.a table tr td {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 1%;
+  
+  
+
+}
+
+.a table tr:hover {
+  background-color:darkcyan ;
+  
+}
+
+#search-field{
+  margin-top: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 10px 10px 40px;
+  
+  background-color: transparent;
+  background-image: url('../imgsrc/search-icon.png');
+  background-position: left; 
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  
+
+  width: 400px;
+  height: 40px;
+
+  box-sizing: border-box;
+  border: none;
+  color: black;
+
+
+  font-size: 18px;
+  
+}
+#search-field:not(:placeholder-shown){
+  background:rgba(255,255,255, 0.5);
+  transition: 2s;
+} 
+#search-field:focus{
+  outline: none;
+} 
+
+
+
+#poster{
+  margin: 100px 200px;    
+  width: 800px;
+  height: 1px;
+  background-color: transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -350px;
+  top: 50%;
+  margin-top: -200px;
+  z-index: 0;
+}
+#imgCont{
+  width: 320px;
+  float: left;
+}
+
+#posterImg{
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+  
+#overview{
+  width: 460px;
+  background-color: transparent;
+  float: left;
+  text-align: left;
+  padding-left: 20px;
+}
+
